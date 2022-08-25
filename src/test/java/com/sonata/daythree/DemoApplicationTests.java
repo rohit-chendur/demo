@@ -7,7 +7,7 @@ class DemoApplicationTests {
 	DemoApplication d1 = new DemoApplication();
 	
 	@Test
-	public void multest() {
+	void multest() {
 		assertEquals(500,d1.mul(250, 2));
 	}
 
